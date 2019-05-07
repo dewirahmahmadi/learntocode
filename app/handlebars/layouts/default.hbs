@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html class="full-screen-mobile no-js" lang="en">
+  <head>
+    <title>{{content.title}}</title>
+
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="{{content.description}}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
+    <meta name="GENERATOR" content="MSHTML 11.00.9600.18838">
+    <meta property="og:title" content="{{content.title}}" /> 
+    <meta property="og:description" content="{{content.description}}" />
+    <meta property="og:image" content="{{config.base_url}}{{config.root_path}}{{config.asset_url}}{{content.imgshare}}" />
+    
+    <link rel="icon" type="image/png" href="{{@root.config.asset_url}}favicon/skillsfeature-favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="{{@root.config.asset_url}}favicon/skillsfeature-favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{@root.config.asset_url}}favicon/skillsfeature-favicon-144x144.png" sizes="144x144">
+    <link rel="icon" type="image/png" href="{{@root.config.asset_url}}favicon/skillsfeature-favicon-196x196.png" sizes="196x196">
+
+    <link rel="apple-touch-icon" href="{{@root.config.asset_url}}favicon/rsaf-favicon-196x196.png">
+    <link href="/app/fonts/_Noto-Sans/noto-sans.css">
+    <link href="/app/fonts/_Open-Sans/open-sans.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    {{!-- <link rel="stylesheet" href="../../styles/carosel/animate.css">
+    <link rel="stylesheet" href="../../styles/carosel/docs.theme.min.css"> --}}
+
+
+    <!-- build:css styles/main.css -->
+    <link href="/styles/main.css" rel="stylesheet">
+    <!-- endbuild -->
+
+    <!-- 
+    Start of global snippet: Please do not remove
+    Place this snippet between the <head> and </head> tags on every page of your site.
+    -->
+    <!-- Global site tag (gtag.js) - Google Marketing Platform -->
+    <script src="//assets.adobedtm.com/fc587afa41958921ccd218591ee7ceb5d27559e0/satelliteLib-93703738b88f8b6bc0a6b46e18d8049c7b0950db.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=DC-8189760"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'DC-8189760');
+    </script>
+    <!-- End of global snippet: Please do not remove -->
+    
+    <title>Michelin Guide - the official website</title>
+
+  </head>
+  <body>
+
+    {{> navbar content=navbar}}
+
+    <main>
+      {% body %}
+    </main>
+
+  {{!-- {{> back-to-top}} --}}
+  {{> footer content=footer}}
+
+    <!-- build:js scripts/jquery.min.js -->
+    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/modernizr.js -->
+    <script type="text/javascript" src="/scripts/modernizr.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script type="text/javascript" src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+    <script type="text/javascript" src="/node_modules/jquery-match-height/dist/jquery.matchHeight-min.js"></script>
+    <script type="text/javascript" src="/node_modules/owl.carousel2/dist/owl.carousel.min.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script type="text/javascript" src="/scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <script src="//www.skillsfuture.sg/js/addthis_widget.js#pubid=ra-53b3ca047f1c13c8"></script>
+    <script type="text/javascript">_satellite.pageBottom();</script>
+    <script src="../../scripts/responsiveCarousel.min.js"></script>
+    <script src="../../scripts/vendor/highlight.js"></script>
+    <script src="../../scripts/app.js"></script>
+
+  </body>
+  
+</html>
